@@ -1,0 +1,51 @@
+/* ============================== */
+/*       TAILWIND LAYERS         */
+/* ============================== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================== */
+/*       GLOBAL RESET + FIX       */
+/* ============================== */
+
+/* Smooth fonts + better rendering */
+html {
+  scroll-behavior: smooth;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Body defaults */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #0f172a; /* slate-900 */
+}
+
+/* Remove link underlines */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Image rendering fix */
+img,
+svg {
+  display: inline-block;
+}
+
+/* Utility for centered containers */
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

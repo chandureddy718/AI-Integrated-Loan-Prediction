@@ -1,0 +1,17 @@
+# Environment files
+backend/.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Vite cache
+frontend/.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
